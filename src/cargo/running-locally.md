@@ -59,7 +59,8 @@ of the examples in this training:
    for a normal debug build. Use `cargo build --release` to produce an optimized
    release build in `target/release/`.
 
-7. You can add dependencies for your project by editing `Cargo.toml`. When you
+7. You can add dependencies for your project by editing `Cargo.toml` or
+   by using the `cargo add <dependency>` command. When you
    run `cargo` commands, it will automatically download and compile missing
    dependencies for you.
 

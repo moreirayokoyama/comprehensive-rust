@@ -1485,8 +1485,8 @@ msgstr ""
 
 #: src/cargo/running-locally.md:62
 msgid ""
-"7. You can add dependencies for your project by editing `Cargo.toml`. When "
-"you\n"
+"7. You can add dependencies for your project by editing `Cargo.toml` or\n"
+"   by using the `cargo add <dependency>` command. When you\n"
 "   run `cargo` commands, it will automatically download and compile missing\n"
 "   dependencies for you."
 msgstr ""
