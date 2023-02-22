@@ -1724,7 +1724,7 @@ msgstr "# O que é Rust?"
 
 #: src/welcome-day-1/what-is-rust.md:3
 msgid "Rust is a new programming language which had its [1.0 release in 2015][1]:"
-msgstr "Rust é uma nova linguagem de programação que teve sua versão 1.0 lançada em 2015:"
+msgstr "Rust é uma nova linguagem de programação que teve sua [versão 1.0 lançada em 2015][1]:"
 
 #: src/welcome-day-1/what-is-rust.md:5
 msgid ""
@@ -1774,7 +1774,7 @@ msgstr ""
 
 #: src/welcome-day-1/what-is-rust.md:31
 msgid "[1]: https://blog.rust-lang.org/2015/05/15/Rust-1.0.html"
-msgstr "[1]: https://doc.rust-lang.org/std/sync/struct.Arc.html"
+msgstr "[1]: https://blog.rust-lang.org/2015/05/15/Rust-1.0.html"
 
 #: src/hello-world.md:1
 msgid "# Hello World!"
