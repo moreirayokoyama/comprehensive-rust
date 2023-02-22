@@ -2167,9 +2167,9 @@ msgid ""
 "  feedback, ready to copy-paste into your code."
 msgstr ""
 "* Lembre as pessoas de lerem os erros --- muitos desenvolvedores se acostumaram\n"
-"  a ignorar as longas saída do compilador. O compilador Rust é significativamente mais\n"
+"  a ignorar as longas saídas impressas pelo compilador. O compilador Rust é significativamente mais\n"
 "  verboso do que outros compiladores. Muitas vezes, ele fornecerá a você feedback\n"
-"  _utilizável_, pronto para copiar e colar em seu código."
+"  _acionável_, pronto para copiar e colar em seu código."
 
 #: src/why-rust/modern.md:37
 msgid ""
@@ -2198,7 +2198,7 @@ msgid ""
 "  community is still working on finding the best solution --- and perhaps there\n"
 "  isn't a single \"best solution\" for some of these things."
 msgstr ""
-"  O raciocínio por trás disso é que a funcionalidades na biblioteca padrão não podem\n"
+"  O raciocínio por trás disso é que as funcionalidades na biblioteca padrão não podem\n"
 "  ser descartadas, portanto têm que ser muito estáveis. Para os exemplos acima, a comunidade\n"
 "  Rust ainda está trabalhando para encontrar a melhor solução --- e talvez não\n"
 "  haja uma única \"melhor solução\" para algumas dessas coisas."
@@ -2210,7 +2210,7 @@ msgid ""
 "  is that the standard library can be smaller."
 msgstr ""
 "  O Rust vem com um gerenciador de pacotes embutido na forma de Cargo e isso torna\n"
-"  trivial baixar e compilar crates de terceiros. Uma consequência disso\n"
+"  trivial baixar e compilar `crates` (pacotes) de terceiros. Uma consequência disso\n"
 "  é que a biblioteca padrão pode ser menor."
 
 #: src/why-rust/modern.md:54
@@ -2247,7 +2247,7 @@ msgstr "# Sintaxe Básica"
 
 #: src/basic-syntax.md:3
 msgid "Much of the Rust syntax will be familiar to you from C, C++ or Java:"
-msgstr "Grande parte da sintaxe do Rust será familiar para você em C ou C++:"
+msgstr "Grande parte da sintaxe do Rust será familiar para você que vem de C, C++ ou Java:"
 
 #: src/basic-syntax.md:5
 msgid ""
