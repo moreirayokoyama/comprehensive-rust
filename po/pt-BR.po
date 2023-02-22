@@ -2368,7 +2368,7 @@ msgid ""
 "  Note that the length of the array is *part of its type*, which means that `[u8; 3]` and\n"
 "  `[u8; 4]` are considered two different types."
 msgstr ""
-"* Arrays possuem elementos do mesmo tipo, `T`, e comprimento, `N`, que é uma constante de tempo de compilação.\n"
+"* Arrays possuem elementos do mesmo tipo, `T`, e comprimento, `N`, que é uma constante em tempo de compilação.\n"
 "  Observe que o comprimento do array é *parte de seu tipo*, o que significa que `[u8; 3]` e\n"
 "  `[u8; 4]` são considerados dois tipos diferentes."
 
@@ -2390,7 +2390,7 @@ msgstr ""
 
 #: src/basic-syntax/compound-types.md:45
 msgid "* Adding `#`, eg `{a:#?}`, invokes a \"pretty printing\" format, which can be easier to read."
-msgstr "* Adicionando `#`, por exemplo `{a:#?}`, chama um formatado de \"impressão bonita\", que pode ser mais fácil de ler."
+msgstr "* Adicionando `#`, por exemplo `{a:#?}`, chama um formato de \"impressão bonita\", que pode ser mais fácil de ler."
 
 #: src/basic-syntax/compound-types.md:47
 msgid "Tuples:"
