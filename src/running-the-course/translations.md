@@ -3,7 +3,7 @@
 The course has been translated into other languages by a set of wonderful
 volunteers:
 
-* [Brazilian Portuguese][pt-BR] by [@rastringer] and [@hugojacob].
+* [Brazilian Portuguese][pt-BR] by [@rastringer], [@hugojacob] and [@moreirayokoyama].
 * [Korean][ko] by [@keispace], [@jiyongp] and [@jooyunghan].
 
 Use the language picker in the top-right corner to switch between languages.
