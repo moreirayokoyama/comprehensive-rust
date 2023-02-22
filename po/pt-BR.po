@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: src/cargo/rust-ecosystem.md:1
 msgid "# The Rust Ecosystem"
-msgstr "# O ecossistema da rust"
+msgstr "# O Ecossistema Rust"
 
 #: src/cargo/rust-ecosystem.md:3
 msgid "The Rust ecosystem consists of a number of tools, of which the main ones are:"
@@ -1265,7 +1265,7 @@ msgid ""
 "  intermediate formats."
 msgstr ""
 "* `rustc`: o compilador Rust que transforma arquivos `.rs` em binários e outros\n"
-"  formatos intermediários[^rustc]."
+"  formatos intermediários."
 
 #: src/cargo/rust-ecosystem.md:8
 msgid ""
@@ -1274,9 +1274,9 @@ msgid ""
 "  `rustc` when building your project. Cargo also comes with a built-in test\n"
 "  runner which is used to execute unit tests."
 msgstr ""
-"* `cargo`: o gerenciador de dependências Rust e a ferramenta de compilação. O Cargo sabe como\n"
+"* `cargo`: o gerenciador de dependências Rust e a ferramenta de empacotamento. O Cargo sabe como\n"
 "  baixar as dependências hospedadas em <https://crates.io> e as passará para\n"
-"  o `rustc` ao compilar o seu projeto. O Cargo também vem com um executor de testes\n"
+"  o `rustc` ao construir o pacote do seu projeto. O Cargo também vem com um executor de testes\n"
 "  embutido que é usado para executar testes unitários."
 
 #: src/cargo/rust-ecosystem.md:13
@@ -1291,7 +1291,7 @@ msgstr ""
 "  instalar e atualizar o `rustc` e o `cargo` quando novas versões do Rust forem lançadas.\n"
 "  Além disso, `rustup` também pode baixar documentação da biblioteca\n"
 "  padrão. Você pode ter várias versões do Rust instaladas ao mesmo tempo e `rustup`\n"
-"  permitirá que você alterne entre eles conforme necessário."
+"  permitirá que você alterne entre elas de acordo com a sua necessidade."
 
 #: src/cargo/rust-ecosystem.md:21 src/hello-world.md:25 src/hello-world/small-example.md:27 src/why-rust/runtime.md:10
 #: src/why-rust/modern.md:21 src/basic-syntax/compound-types.md:30 src/error-handling/try-operator.md:50
@@ -1318,7 +1318,7 @@ msgid ""
 "* New features are being tested on \"nightly\", \"beta\" is what becomes\n"
 "  \"stable\" every six weeks."
 msgstr ""
-"* Novos recursos estão sendo testados em \"nightly\", \"beta\" é o que se torna\n"
+"* Novas funcionalidades estão sendo testadas em \"nightly\", \"beta\" é o que se torna\n"
 "  \"estável\" a cada seis semanas."
 
 #: src/cargo/rust-ecosystem.md:32
@@ -1370,12 +1370,12 @@ msgid ""
 "      * It is also extensible with sub command plugins as well (such as [cargo clippy]).\n"
 "  * Read more from the [official Cargo Book]"
 msgstr ""
-"  * Pode valer a pena mencionar que o Cargo é uma ferramenta extremamente poderosa e abrangente. Ele é capaz de muitos "
-"recursos avançados, incluindo, entre outros:\n"
+"  * Pode valer a pena mencionar que o Cargo é uma ferramenta extremamente poderosa e abrangente. Ele é capaz de muitas "
+"funcionalidades avançadas, incluindo, entre outros:\n"
 "      * Estrutura do projeto/pacote\n"
 "      * [workspaces]\n"
 "      * Gerenciamento de Dependências de desenvolvimento e dependências de tempo de execução/cache\n"
-"      * [scripts de compilação]\n"
+"      * [scripts de construção de pacotes]\n"
 "      * [instalação global]\n"
 "      * Também é extensível com plugins de subcomando (como [cargo clippy]).\n"
 "  * Leia mais no [livro oficial do Cargo]"
@@ -1390,7 +1390,7 @@ msgstr "[workspaces]: https://doc.rust-lang.org/cargo/reference/workspaces.html"
 
 #: src/cargo/rust-ecosystem.md:59
 msgid "[build scripting]: https://doc.rust-lang.org/cargo/reference/build-scripts.html"
-msgstr "[scripts de compilação]: https://doc.rust-lang.org/cargo/reference/build-scripts.html"
+msgstr "[scripts de construção de pacotes]: https://doc.rust-lang.org/cargo/reference/build-scripts.html"
 
 #: src/cargo/rust-ecosystem.md:61
 msgid "[global installation]: https://doc.rust-lang.org/cargo/commands/cargo-install.html"
