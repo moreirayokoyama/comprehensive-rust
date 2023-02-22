@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: src/welcome-day-1.md:12
 msgid "* Ownership: move semantics, copying and cloning, borrowing, and lifetimes."
-msgstr "* Ownership: semântica de movimento, cópia e clonagem, empréstimo e tempos de vida."
+msgstr "* Ownership: semântica de movimento (`move`), cópia e clonagem, empréstimo (`borrowing`) e tempos de vida (`lifetime`)."
 
 #: src/welcome-day-1.md:16
 msgid "Please remind the students that:"
@@ -1677,12 +1677,12 @@ msgstr ""
 "* A aula é para ser interativa e as discussões são muito encorajadas!\n"
 "  * Como instrutor, você deve tentar manter as discussões relevantes, ou seja,\n"
 "    mantenha o que é relacionado a como Rust faz as coisas versus alguma outra linguagem. Pode ser\n"
-"    difícil encontrar o equilíbrio certo, mas erra ao permitir discussões\n"
-"    uma vez que envolvem as pessoas muito mais do que uma comunicação unidirecional.\n"
-"* As perguntas provavelmente parecerão que estamos falando sobre as coisas antes dos slides.\n"
+"    difícil encontrar o equilíbrio certo, mas peque por permitir discussões\n"
+"    uma vez que elas engajam as pessoas muito mais do que uma comunicação unilateral.\n"
+"* As perguntas provavelmente farão parecer que estamos falando sobre as coisas antes dos slides.\n"
 "  * Isso está perfeitamente OK! A repetição é uma parte importante do aprendizado. Lembre-se\n"
 "    que os slides são apenas um suporte e você está livre para ignorá-los quando\n"
-"    Quiser."
+"    quiser."
 
 #: src/welcome-day-1.md:29
 msgid ""
