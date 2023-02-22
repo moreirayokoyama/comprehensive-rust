@@ -1036,7 +1036,7 @@ msgstr ""
 "5. Deixe as pessoas resolverem os exercícios sozinhas ou em pequenos grupos. Tenha certeza de\n"
 "   perguntar às pessoas se elas estão com dificuldades ou se há algo em que você possa ajudar. Quando\n"
 "   você vê que várias pessoas têm o mesmo problema, chame a turma\n"
-"   e oferecer uma solução, por exemplo, mostrando às pessoas onde encontrar as informações relevantes\n"
+"   e ofereça uma solução, por exemplo, mostrando às pessoas onde encontrar as informações relevantes\n"
 "   na biblioteca padrão."
 
 #: src/running-the-course.md:38
@@ -1049,7 +1049,7 @@ msgid ""
 msgstr ""
 "6. Se você não pular as partes específicas do Android no Dia 4, precisará de um [checkout\n"
 "   do AOSP][1]. Faça um checkout do [repositório do curso][2] no mesmo\n"
-"   computador e mova o diretório `src/android/` para a raiz do seu checkout doAOSP.\n"
+"   computador e mova o diretório `src/android/` para a raiz do seu checkout do AOSP.\n"
 "   Isso garantirá que o sistema de compilação do Android veja os\n"
 "   arquivos `Android.bp` em `src/android/`."
 
