@@ -1494,9 +1494,9 @@ msgid ""
 "writing, the latest stable Rust release has these version numbers:"
 msgstr ""
 "Se você quiser experimentar o código em seu próprio sistema, precisará\n"
-"primeiro instalar o Rust. Faça isso seguindo as [instruções][1].\n"
+"primeiro instalar o Rust. Faça isso seguindo as [instruções no Livro de Rust][1].\n"
 "Isso deve fornecer o `rustc` e o `cargo` funcionando. Ao escrever\n"
-"Este curso, a última versão estável do Rust é:"
+"este curso, a última versão estável do Rust é:"
 
 #: src/cargo/running-locally.md:8
 msgid ""
@@ -1540,7 +1540,7 @@ msgstr ""
 
 #: src/cargo/running-locally.md:27
 msgid "3. Navigate into `exercise/` and use `cargo run` to build and run your binary:"
-msgstr "3. Navegue até `exercise/` e use `cargo run` para compilar e executar seu binário:"
+msgstr "3. Navegue até `exercise/` e use `cargo run` para empacotar e executar seu binário:"
 
 #: src/cargo/running-locally.md:29
 msgid ""
@@ -1573,7 +1573,7 @@ msgstr ""
 
 #: src/cargo/running-locally.md:47
 msgid "5. Use `cargo run` to build and run your updated binary:"
-msgstr "5. Use `cargo run` para compilar e executar seu binário atualizado:"
+msgstr "5. Use `cargo run` para empacotar e executar seu binário atualizado:"
 
 #: src/cargo/running-locally.md:49
 msgid ""
@@ -1594,8 +1594,8 @@ msgid ""
 "   release build in `target/release/`."
 msgstr ""
 "6. Use `cargo check` para verificar rapidamente se há erros em seu projeto, use `cargo build`\n"
-"   para compilá-lo sem executá-lo. Você encontrará a saída em `target/debug/`\n"
-"   para uma compilação de depuração. Use `cargo build --release` para produzir um binário\n"
+"   para empacotá-lo sem executá-lo. Você encontrará a o resultado produzido em `target/debug/`\n"
+"   para um pacote de depuração. Use `cargo build --release` para produzir um pacote binário\n"
 "   otimizado em `target/release/`."
 
 #: src/cargo/running-locally.md:62
