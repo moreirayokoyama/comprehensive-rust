@@ -1841,7 +1841,7 @@ msgid ""
 "  arguments (no function [overloading](basic-syntax/functions-interlude.md))."
 msgstr ""
 "* Rust usa macros para situações em que você deseja ter um número variável de\n"
-"  argumentos (sem [overloading](sintaxe-básica/funções-interlude.md) de funções)."
+"  argumentos (sem [overloading](basic-syntax/functions-interlude.md) de funções)."
 
 #: src/hello-world/small-example.md:1
 msgid "# Small Example"
