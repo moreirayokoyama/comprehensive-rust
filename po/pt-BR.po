@@ -2619,48 +2619,38 @@ msgstr ""
 "* `String` é um buffer de string mutável."
 
 #: src/basic-syntax/string-slices.md:27
-msgid ""
-"* `&str` introduces a string slice, which is an immutable reference to UTF-8 encoded string data \n"
-"  stored in a block of memory. String literals (`\"Hello\"`), are stored in the program's binary."
-msgstr ""
-"* `&str` introduz uma slice de string, que é uma referência imutável para dados de string codificados em UTF-8\n"
-"  armazenados em um bloco de memória. String literais (`\"Hello\"`), são armazenados no binário do programa."
+msgid "* `&str` introduces a string slice, which is an immutable reference to UTF-8 encoded string data stored in a block of memory.\n"
+"  String literals (`”Hello”`), are stored in the program’s binary."
+msgstr "* `&str` introduz uma slice de string, que é uma referência imutável para dados de string codificados em UTF-8 armazenados em um bloco de memória.\n"
+"  String literais (`\"Hello\"`), são armazenados no binário do programa."
 
 #: src/basic-syntax/string-slices.md:30
-msgid ""
-"* Rust's `String` type is a wrapper around a vector of bytes. As with a `Vec<T>`, it is owned.\n"
-"    \n"
-"* As with many other types `String::from()` creates a string from a string literal; `String::new()` \n"
+msgid "* Rust’s `String` type is a wrapper around a vector of bytes. As with a `Vec<T>`, it is owned."
+msgstr "* O tipo `String` do Rust é um wrapper em torno de um vetor de bytes. Tal como acontece com um `Vec<T>`, ele é um valor."
+
+#: src/basic-syntax/string-slices.md:32
+msgid "* As with many other types `String::from()` creates a string from a string literal; `String::new()` \n"
 "  creates a new empty string, to which string data can be added using the `push()` and `push_str()` methods."
-msgstr ""
-"* O tipo `String` do Rust é um wrapper em torno de um vetor de bytes. Tal como acontece com um `Vec<T>`, ele é um valor.\n"
-"    \n"
-"* Assim como muitos outros tipos, `String::from()` cria uma string a partir de uma string literal; `String::new()`\n"
+msgstr "* Assim como muitos outros tipos, `String::from()` cria uma string a partir de uma string literal; `String::new()`\n"
 "  cria uma nova string vazia, na qual os dados da string podem ser adicionados usando os métodos `push()` e `push_str()`."
 
 #: src/basic-syntax/string-slices.md:35
-msgid ""
-"* The `format!()` macro is a convenient way to generate an owned string from dynamic values. It \n"
-"  accepts the same format specification as `println!()`.\n"
-"    \n"
-"* You can borrow `&str` slices from `String` via `&` and optionally range selection.\n"
-"    \n"
-"* For C++ programmers: think of `&str` as `const char*` from C++, but the one that always points \n"
+msgid "* The `format!()` macro is a convenient way to generate an owned string from dynamic values. It \n"
+"  accepts the same format specification as `println!()`."
+msgstr "* A macro `format!()` é uma maneira conveniente de gerar uma string a partir de valores dinâmicos. Ela\n"
+"  aceita os mesmos formatadores que `println!()`."
+
+#: src/basic-syntax/string-slices.md:38 
+msgid "* You can borrow `&str` slices from `String` via `&` and optionally range selection."
+msgstr "* Você pode emprestar slices `&str` de `String` via `&` e, opcionalmente, selecionar um intervalo."
+
+#: src/basic-syntax/string-slices.md:40 
+msgid "* For C++ programmers: think of `&str` as `const char*` from C++, but the one that always points \n"
 "  to a valid string in memory. Rust `String` is a rough equivalent of `std::string` from C++ \n"
-"  (main difference: it can only contain UTF-8 encoded bytes and will never use a small-string optimization).\n"
-"    \n"
-"</details>"
-msgstr ""
-"* A macro `format!()` é uma maneira conveniente de gerar uma string a partir de valores dinâmicos. Isto\n"
-"  aceita os mesmos formatadores que `println!()`.\n"
-"    \n"
-"* Você pode emprestar slices `&str` de `String` via `&` e, opcionalmente, selecionar um intervalo.\n"
-"    \n"
-"* Para programadores C++: pense em `&str` como `const char*` de C++, mas que sempre aponta\n"
+"  (main difference: it can only contain UTF-8 encoded bytes and will never use a small-string optimization)."
+msgstr "* Para programadores C++: pense em `&str` como `const char*` de C++, mas que sempre aponta\n"
 "  para uma string válida na memória. Em Rust, `String` é um equivalente aproximado de `std::string` de C++\n"
-"  (principal diferença: ele só pode conter bytes codificados em UTF-8 e nunca usará uma otimização de string pequena).\n"
-"    \n"
-"</details>"
+"  (principal diferença: ele só pode conter bytes codificados em UTF-8 e nunca usará uma otimização de string pequena)."
 
 #: src/basic-syntax/functions.md:1
 msgid "# Functions"
