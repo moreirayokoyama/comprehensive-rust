@@ -1206,7 +1206,7 @@ msgstr "#### Debian"
 
 #: src/cargo.md:20
 msgid "On Debian/Ubuntu, you can install Cargo, the Rust source and the [Rust formatter][6] with"
-msgstr "No Debian/Ubuntu, você pode instalar o Cargo e o fonte Rust com"
+msgstr "No Debian/Ubuntu, você pode instalar o Cargo, o código fonte de Rust e o [Formatador Rust][6] com"
 
 #: src/cargo.md:22
 msgid ""
@@ -1232,8 +1232,8 @@ msgid ""
 "you prefer them, you can install the [Rust Plugin][5]. Please take note that as of January 2023 debugging only works on the "
 "CLion version of the JetBrains IDEA suite."
 msgstr ""
-"Algumas Persons também gostam de usar a família de IDEs [JetBrains][4], que fazem suas próprias análises, mas têm suas "
-"próprias vantagens e desvantagens. Se você preferir, pode instalar o [Plugin Rust][5]. Observe que, a partir de Janeiro de "
+"Algumas pessoas também gostam de usar a família de IDEs [JetBrains][4], que fazem suas próprias análises, mas têm suas "
+"próprias vantagens e desvantagens. Se você preferir usá-la, você pode instalar o [Plugin Rust][5]. Observe que, a partir de Janeiro de "
 "2023, a depuração funciona apenas na versão CLion do pacote JetBrains IDEA."
 
 #: src/cargo.md:31
