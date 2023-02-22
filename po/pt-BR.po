@@ -1122,7 +1122,7 @@ msgid ""
 msgstr ""
 "> **Exercício para o dia 4:** Você faz interface com algum código C/C++ em seu projeto\n"
 "> que poderíamos tentar mover para Rust? Quanto menos dependências, melhor.\n"
-"> Analisar o código seria o ideal."
+"> Converter o código seria o ideal."
 
 #: src/running-the-course/course-structure.md:16
 msgid "## Format"
