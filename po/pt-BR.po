@@ -923,8 +923,8 @@ msgid ""
 "cover as well as answers to typical questions which come up in class."
 msgstr ""
 "Este é um exemplo de _nota do instrutor_. Nós os usaremos para adicionar\n"
-"informações aos slides. Estes podem ser pontos chave em que o instrutor deve\n"
-"cobrir respostas à perguntas típicas que surgem em sala de aula."
+"informações aos slides. Estes podem ser pontos chave que o instrutor deve\n"
+"cobrir, bem como respostas à perguntas típicas que surgem em sala de aula."
 
 #: src/welcome.md:52 src/cargo/rust-ecosystem.md:67 src/cargo/code-samples.md:35 src/cargo/running-locally.md:74
 #: src/welcome-day-1.md:42 src/welcome-day-1/what-is-rust.md:29 src/hello-world.md:36 src/hello-world/small-example.md:44
