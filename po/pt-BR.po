@@ -2546,47 +2546,36 @@ msgstr ""
 
 #: src/basic-syntax/slices.md:20
 msgid "* We create a slice by borrowing `a` and specifying the starting and ending indexes in brackets."
-msgstr "* Criamos uma slice pegando emprestado `a` e especificando os índices inicial e final entre colchetes."
+msgstr "* Criamos uma slice emprestando o valor (`borrowing`) de `a` e especificando os índices inicial e final entre colchetes."
 
 #: src/basic-syntax/slices.md:22
-msgid ""
-"* If the slice starts at index 0, Rust's range syntax allows us to drop the starting index, meaning that `&a[0..a.len()]` "
-"and `&a[..a.len()]` are identical.\n"
-"    \n"
-"* The same is true for the last index, so `&a[2..a.len()]` and `&a[2..]` are identical."
-msgstr ""
-"* Se a slice começa no índice 0, a sintaxe de intervalo do Rust nos permite descartar o índice inicial, o que significa que "
-"`&a[0..a.len()]` e `&a[..a.len()]` são idênticos .\n"
-"    \n"
-"* O mesmo vale para o último índice, então `&a[2..a.len()]` e `&a[2..]` são idênticos."
+msgid "* If the slice starts at index 0, Rust’s range syntax allows us to drop the starting index, meaning that `&a[0..a.len()]` and `&a[..a.len()]` are identical."
+msgstr "* Se a slice começa no índice 0, a sintaxe de intervalo do Rust nos permite descartar o índice inicial, o que significa que `&a[0..a.len()]` e `&a[..a.len()]` são idênticos."
+
+#: src/basic-syntax/slices.md:24
+msgid "* The same is true for the last index, so `&a[2..a.len()]` and `&a[2..]` are identical."
+msgstr "* O mesmo vale para o último índice, então `&a[2..a.len()]` e `&a[2..]` são idênticos."
 
 #: src/basic-syntax/slices.md:26
 msgid "* To easily create a slice of the full array, we can therefore use `&a[..]`."
 msgstr "* Para criar facilmente uma slice do array completo, podemos usar `&a[..]`."
 
 #: src/basic-syntax/slices.md:28
-msgid ""
-"* `s` is a reference to a slice of `i32`s. Notice that the type of `s` (`&[i32]`) no longer mentions the array length. This "
-"allows us to perform computation on slices of different sizes.\n"
-" \n"
-"* Slices always borrow from another object. In this example, `a` has to remain 'alive' (in scope) for at least as long as "
-"our slice. \n"
-"    \n"
-"* The question about modifying `a[3]` can spark an interesting discussion, but the answer is that for memory safety "
-"reasons\n"
+msgid "* `s` is a reference to a slice of `i32`s. Notice that the type of `s` (`&[i32]`) no longer mentions the array length. This allows us to perform computation on slices of different sizes."
+msgstr "* `s` é uma referência a uma slice de `i32`s. Observe que o tipo de `s` (`&[i32]`) não menciona mais o tamanho do array. Isso nos permite realizar cálculos em slices de tamanhos diferentes."
+
+#: src/basic-syntax/slices.md:30
+msgid "* Slices always borrow from another object. In this example, `a` has to remain 'alive' (in scope) for at least as long as our slice."
+msgstr "* As slices sempre emprestam valores de outro objeto (`borrowing`). Neste exemplo, `a` deve permanecer 'vivo' (no escopo) por pelo menos tanto tempo quanto nossa slice."
+
+#: src/basic-syntax/slices.md:32
+msgid "* The question about modifying `a[3]` can spark an interesting discussion, but the answer is that for memory safety reasons\n"
 "  you cannot do it through `a` after you created a slice, but you can read the data from both `a` and `s` safely. \n"
 "  More details will be explained in the borrow checker section."
-msgstr ""
-"* `s` é uma referência a uma slice de `i32`s. Observe que o tipo de `s` (`&[i32]`) não menciona mais o tamanho do array. "
-"Isso nos permite realizar cálculos em slices de tamanhos diferentes.\n"
-" \n"
-"* As slices sempre pegam emprestado de outro objeto. Neste exemplo, `a` deve permanecer 'vivo' (no escopo) por pelo menos "
-"tanto tempo quanto nossa slice.\n"
-"    \n"
-"* A questão sobre a modificação de `a[3]` pode gerar uma discussão interessante, mas a resposta é por motivos de segurança "
+msgstr "* A questão sobre a modificação de `a[3]` pode gerar uma discussão interessante, mas a resposta é por motivos de segurança "
 "de memória\n"
 "  você não pode fazer isso por meio de `a` depois de criar uma slice, mas pode ler os dados de `a` e `s` com segurança.\n"
-"  Mais detalhes serão explicados na seção do verificador de empréstimo."
+"  Mais detalhes serão explicados na seção do verificador de empréstimo (`borrow checker`)."
 
 #: src/basic-syntax/string-slices.md:1
 msgid "# `String` vs `str`"
