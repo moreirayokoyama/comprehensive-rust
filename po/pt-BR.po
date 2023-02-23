@@ -3288,36 +3288,9 @@ msgstr "## `const`"
 msgid "You can declare compile-time constants:"
 msgstr "Você pode declarar constantes de tempo de compilação:"
 
-#: src/basic-syntax/static-and-const.md:9
-msgid ""
-"```rust,editable\n"
-"const DIGEST_SIZE: usize = 3;\n"
-"const ZERO: Option<u8> = Some(42);"
-msgstr ""
-
-#: src/basic-syntax/static-and-const.md:13
-msgid ""
-"fn compute_digest(text: &str) -> [u8; DIGEST_SIZE] {\n"
-"    let mut digest = [ZERO.unwrap_or(0); DIGEST_SIZE];\n"
-"    for (idx, &b) in text.as_bytes().iter().enumerate() {\n"
-"        digest[idx % DIGEST_SIZE] = digest[idx % DIGEST_SIZE].wrapping_add(b);\n"
-"    }\n"
-"    digest\n"
-"}"
-msgstr ""
-
-#: src/basic-syntax/static-and-const.md:21
-msgid ""
-"fn main() {\n"
-"    let digest = compute_digest(\"Hello\");\n"
-"    println!(\"Digest: {digest:?}\");\n"
-"}\n"
-"```"
-msgstr ""
-
 #: src/basic-syntax/static-and-const.md:27
 msgid "According the the [Rust RFC Book][1] these are inlined upon use."
-msgstr "De acordo com o [Rust RFC Book] [1], eles são expandidos no próprio local (inline) após o uso."
+msgstr "De acordo com o [Rust RFC Book][1], eles são expandidos no próprio local (inline) após o uso."
 
 #: src/basic-syntax/static-and-const.md:29
 msgid "## `static`"
@@ -3327,28 +3300,10 @@ msgstr "## `static`"
 msgid "You can also declare static variables:"
 msgstr "Você também pode declarar variáveis estáticas:"
 
-#: src/basic-syntax/static-and-const.md:33
-msgid ""
-"```rust,editable\n"
-"static BANNER: &str = \"Welcome to RustOS 3.14\";"
-msgstr ""
-"```rust, editable\n"
-"static BANNER: &str = \"Bem-vindo ao RustOS 3.14\";"
-
-#: src/basic-syntax/static-and-const.md:36
-msgid ""
-"fn main() {\n"
-"    println!(\"{BANNER}\");\n"
-"}\n"
-"```"
-msgstr ""
-
 #: src/basic-syntax/static-and-const.md:41
-msgid ""
-"As noted in the [Rust RFC Book][1], these are not inlined upon use and have an actual associated memory location.  This is "
+msgid "As noted in the [Rust RFC Book][1], these are not inlined upon use and have an actual associated memory location.  This is "
 "useful for unsafe and embedded code, and the variable lives through the entirety of the program execution."
-msgstr ""
-"Conforme observado no [Rust RFC Book][1], `static` e `const` não são expandidos em linha (inlined) quando utilizados uso e "
+msgstr "Conforme observado no [Rust RFC Book][1], `static` não são expandidos em linha (inlined) quando utilizados e "
 "possuem um local de memória real associado. Isso é útil para código inseguro e embarcado, e a variável sobrevive durante "
 "toda a execução do programa."
 
@@ -3357,15 +3312,12 @@ msgid "We will look at mutating static data in the [chapter on Unsafe Rust](../u
 msgstr "Veremos a mutação de dados estáticos no [capítulo sobre Unsafe Rust](../unsafe.md)."
 
 #: src/basic-syntax/static-and-const.md:48
-msgid ""
-"* Mention that `const` behaves semantically similar to C++'s `constexpr`.\n"
+msgid "* Mention that `const` behaves semantically similar to C++'s `constexpr`.\n"
 "* `static`, on the other hand, is much more similar to a `const` or mutable global variable in C++.\n"
 "* It isn't super common that one would need a runtime evaluated constant, but it is helpful and safer than using a static."
-msgstr ""
-"* Mencione que `const` se comporta semanticamente similar ao `constexpr` de C++.\n"
+msgstr "* Mencione que `const` se comporta semanticamente similar ao `constexpr` de C++.\n"
 "* `static`, por outro lado, é muito mais parecido com um `const` ou variável global mutável em C++.\n"
-"* Não é muito comum que alguém precise de uma constante avaliada em tempo de execução, mas é útil e mais seguro do que usar "
-"uma estática."
+"* Não é muito comum que alguém precise de uma constante avaliada em tempo de execução, mas é útil e mais seguro do que usar uma estática."
 
 #: src/basic-syntax/static-and-const.md:54
 msgid "[1]: https://rust-lang.github.io/rfcs/0246-const-vs-static.html"
