@@ -3792,23 +3792,11 @@ msgstr ""
 
 #: src/ownership/move-semantics.md:1
 msgid "# Move Semantics"
-msgstr "# Semântica de mover (move)"
+msgstr "# Semântica de movimento (move)"
 
 #: src/ownership/move-semantics.md:3
 msgid "An assignment will transfer ownership between variables:"
 msgstr "Uma atribuição transferirá a ownership entre variáveis:"
-
-#: src/ownership/move-semantics.md:5
-msgid ""
-"```rust,editable\n"
-"fn main() {\n"
-"    let s1: String = String::from(\"Hello!\");\n"
-"    let s2: String = s1;\n"
-"    println!(\"s2: {s2}\");\n"
-"    // println!(\"s1: {s1}\");\n"
-"}\n"
-"```"
-msgstr ""
 
 #: src/ownership/move-semantics.md:14
 msgid ""
@@ -3819,8 +3807,8 @@ msgid ""
 "* There is always _exactly_ one variable binding which owns a value."
 msgstr ""
 "* A atribuição de `s1` a `s2` transfere a ownership.\n"
-"* Os dados foram _movidos_ de `s1` e `s1` não estão mais acessíveis.\n"
-"* Quando `s1` sai do escopo, nada acontece: ele não tem ownership.\n"
+"* Os dados foram _movidos_ de `s1` e `s1` não está mais acessível.\n"
+"* Quando `s1` sai do escopo, nada acontece: ela não tem ownership.\n"
 "* Quando `s2` sai do escopo, os dados da string são liberados.\n"
 "* Há sempre _exatamente_ uma associação de variável que possui um valor."
 
@@ -3833,7 +3821,7 @@ msgstr ""
 "movimento esteja definido!)."
 
 #: src/ownership/move-semantics.md:24
-msgid "* In Rust, you clones are explicit (by using `clone`)."
+msgid "* In Rust, clones are explicit (by using `clone`)."
 msgstr "* No Rust, clones são explícitos (usando `clone`)."
 
 #: src/ownership/moved-strings-rust.md:1
