@@ -3379,7 +3379,7 @@ msgstr ""
 
 #: src/memory-management.md:13
 msgid "It does this with an explicit ownership concept."
-msgstr "Ele faz isso com um conceito de ownership explícito."
+msgstr "Ele faz isso com um conceito explícito de propriedade (`ownership`)."
 
 #: src/memory-management.md:15
 msgid "First, let's refresh how memory management works."
