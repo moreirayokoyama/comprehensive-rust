@@ -3124,11 +3124,12 @@ msgstr ""
 "funções:"
 
 #: src/exercises/day-1/for-loops.md:52 src/exercises/day-1/book-library.md:20 src/exercises/day-2/health-statistics.md:13
-msgid ""
-"```rust,should_panic\n"
+msgid "```rust,should_panic\n"
 "// TODO: remove this when you're done with your implementation.\n"
 "#![allow(unused_variables, dead_code)]"
-msgstr ""
+msgstr "```rust,should_panic\n"
+"// TODO: remova isto quando você tiver terminado sua implementação.\n"
+"#![allow(unused_variables, dead_code)]"
 
 #: src/exercises/day-1/for-loops.md:56
 msgid ""
