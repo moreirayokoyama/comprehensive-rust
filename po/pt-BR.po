@@ -118,7 +118,7 @@ msgstr "Métodos"
 
 #: src/SUMMARY.md:34
 msgid "Overloading"
-msgstr "Sobrecargo"
+msgstr "Sobrecarga"
 
 #: src/SUMMARY.md:35 src/SUMMARY.md:64 src/SUMMARY.md:88 src/SUMMARY.md:117 src/SUMMARY.md:146 src/SUMMARY.md:174
 #: src/SUMMARY.md:197 src/SUMMARY.md:224
@@ -3875,7 +3875,7 @@ msgstr ""
 "  * Seguro e correto.\n"
 "* Baseado em escopo como C++:\n"
 "  * Parcialmente automático.\n"
-"  * Nenhuma sobrecargo de tempo de execução.\n"
+"  * Nenhuma sobrecarga de tempo de execução.\n"
 "* Baseado em escopo aplicado pelo compilador como Rust:\n"
 "  * Aplicado pelo compilador.\n"
 "  * Nenhuma sobrecarga em tempo de execução.\n"
@@ -7711,7 +7711,7 @@ msgid ""
 "  * Otherwise, `Result::Err` contains the index where such an element should be inserted."
 msgstr ""
 "* `Option` e `Result` são amplamente usados não apenas na biblioteca padrão.\n"
-"* `Option<&T>` tem sobrecargo de espaço zero em comparação com `&T`.\n"
+"* `Option<&T>` tem sobrecarga de espaço zero em comparação com `&T`.\n"
 "* `Result` é o tipo padrão para implementar o tratamento de erros, como veremos no Dia 3.\n"
 "* `binary_search` retorna `Result<usize, usize>`.\n"
 "  * Se encontrado, `Result::Ok` contém o índice onde o elemento foi encontrado.\n"
@@ -9401,7 +9401,7 @@ msgstr "# `Adicionar`, `Mul`, ..."
 
 #: src/traits/operators.md:3
 msgid "Operator overloading is implemented via traits in [`std::ops`][1]:"
-msgstr "A sobrecargo do operador é implementada por meio de características em `std::ops`:"
+msgstr "A sobrecarga do operador é implementada por meio de características em `std::ops`:"
 
 #: src/traits/operators.md:5
 msgid ""
