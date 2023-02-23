@@ -3387,7 +3387,7 @@ msgstr "Primeiro, vamos rever como o gerenciamento de memória funciona."
 
 #: src/memory-management/stack-vs-heap.md:1
 msgid "# The Stack vs The Heap"
-msgstr "# O Stack vs O Heap"
+msgstr "# A Pilha (Stack) vs O Monte (Heap)"
 
 #: src/memory-management/stack-vs-heap.md:3
 msgid ""
@@ -3413,7 +3413,7 @@ msgstr ""
 "* Heap: Armazenamento de valores fora das chamadas de função.\n"
 "  * Os valores têm tamanhos dinâmicos determinados em tempo de execução.\n"
 "  * Ligeiramente mais lento que o stack: é necessária alguma contabilidade.\n"
-"  * Sem garantia de localização na memória."
+"  * Sem garantia de localidade na memória."
 
 #: src/memory-management/stack.md:1
 msgid "# Stack Memory"
