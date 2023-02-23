@@ -3780,18 +3780,6 @@ msgid ""
 "struct Point(i32, i32);"
 msgstr ""
 
-#: src/ownership.md:9
-msgid ""
-"fn main() {\n"
-"    {\n"
-"        let p = Point(3, 4);\n"
-"        println!(\"x: {}\", p.0);\n"
-"    }\n"
-"    println!(\"y: {}\", p.1);\n"
-"}\n"
-"```"
-msgstr ""
-
 #: src/ownership.md:18
 msgid ""
 "* At the end of the scope, the variable is _dropped_ and the data is freed.\n"
@@ -3800,7 +3788,7 @@ msgid ""
 msgstr ""
 "* No final do escopo, a variável é _dropada_ e os dados são liberados.\n"
 "* Um destrutor pode ser executado aqui para liberar recursos.\n"
-"* Dizemos que a variável _possui_ (é dona) o valor."
+"* Dizemos que a variável _possui_ (é dona) o valor (`ownership`)."
 
 #: src/ownership/move-semantics.md:1
 msgid "# Move Semantics"
