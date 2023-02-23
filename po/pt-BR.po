@@ -3325,72 +3325,29 @@ msgstr "[1]: https://rust-lang.github.io/rfcs/0246-const-vs-static.html"
 
 #: src/basic-syntax/scopes-shadowing.md:1
 msgid "# Scopes and Shadowing"
-msgstr "# Escopos e Sobreposição"
+msgstr "# Escopos e Obscurecimento (Shadowing)"
 
 #: src/basic-syntax/scopes-shadowing.md:3
-msgid ""
-"You can shadow variables, both those from outer scopes and variables from the\n"
+msgid "You can shadow variables, both those from outer scopes and variables from the\n"
 "same scope:"
-msgstr ""
-"Você pode sobrepor (shadow) variáveis, tanto aquelas de escopos externos quanto variáveis do\n"
-"mesmo escopo:"
-
-#: src/basic-syntax/scopes-shadowing.md:6
-msgid ""
-"```rust,editable\n"
-"fn main() {\n"
-"    let a = 10;\n"
-"    println!(\"before: {a}\");"
-msgstr ""
-
-#: src/basic-syntax/scopes-shadowing.md:11
-msgid ""
-"    {\n"
-"        let a = \"hello\";\n"
-"        println!(\"inner scope: {a}\");"
-msgstr ""
-
-#: src/basic-syntax/scopes-shadowing.md:15
-msgid ""
-"        let a = true;\n"
-"        println!(\"shadowed in inner scope: {a}\");\n"
-"    }"
-msgstr ""
-
-#: src/basic-syntax/scopes-shadowing.md:19
-msgid ""
-"    println!(\"after: {a}\");\n"
-"}\n"
-"```"
-msgstr ""
+msgstr "Nota de tradução: é difícil encontrar um termo em português que possa servir para traduzir o termo `shadowing`. "
+"Basicamente o termo significa que a variável original se tornou apenas uma sombra enquanto que uma nova variável de mesmo nome assumiu outro tipo e valor. "
+"O termo usado (`obscurecimento`) pareceu o mais adequado, embora ainda pareça soar estranho na nossa língua.\n\n"
+"Você pode obscurecer variáveis tanto aquelas de escopos externos quanto variáveis do mesmo escopo:"
 
 #: src/basic-syntax/scopes-shadowing.md:25
-msgid ""
-"* Definition: Shadowing is different from mutation, because after shadowing both variable's memory locations exist at the "
+msgid "* Definition: Shadowing is different from mutation, because after shadowing both variable's memory locations exist at the "
 "same time. Both are available under the same name, depending where you use it in the code. \n"
 "* A shadowing variable can have a different type. \n"
 "* Shadowing looks obscure at first, but is convenient for holding on to values after `.unwrap()`.\n"
 "* The following code demonstrates why the compiler can't simply reuse memory locations when shadowing an immutable variable "
 "in a scope, even if the type does not change."
-msgstr ""
-"* Definição: A sobreposição é diferente da mutação, porque após a sobreposição, os locais de memória de ambas as variáveis "
+msgstr "* Definição: O obscurecimento é diferente da mutação, porque após a sobreposição, os locais de memória de ambas as variáveis "
 "existem ao mesmo tempo. Ambos estão disponíveis com o mesmo nome, dependendo de onde você os usa no código.\n"
-"* Uma variável sobreposta pode ter um tipo diferente.\n"
-"* A sobreposição parece obscura a princípio, mas é conveniente para manter os valores após `.unwrap()`.\n"
+"* Uma variável obscurecida pode ter um tipo diferente.\n"
+"* O obscurecimento parece turvo a princípio, mas é conveniente para manter os valores após `.unwrap()`.\n"
 "* O código a seguir demonstra por que o compilador não pode simplesmente reutilizar locais de memória ao sobrepor uma "
 "variável imutável em um escopo, mesmo que o tipo não seja alterado."
-
-#: src/basic-syntax/scopes-shadowing.md:30
-msgid ""
-"```rust,editable\n"
-"fn main() {\n"
-"    let a = 1;\n"
-"    let b = &a;\n"
-"    let a = a + 1;\n"
-"    println!(\"{a} {b}\");\n"
-"}\n"
-"```"
-msgstr ""
 
 #: src/memory-management.md:1
 msgid "# Memory Management"
