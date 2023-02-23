@@ -2842,7 +2842,7 @@ msgstr ""
 "  * Sempre tem um número fixo de parâmetros.\n"
 "  * Sempre usa um único conjunto de tipos de parâmetros.\n"
 "* Valores padrão não são suportados:\n"
-"  * Todos as chamadas têm o mesmo número de argumentos.\n"
+"  * Todas as chamadas têm o mesmo número de argumentos.\n"
 "  * Às vezes macros são usadas como alternativa."
 
 #: src/basic-syntax/functions-interlude.md:12
@@ -2871,7 +2871,7 @@ msgid ""
 "* When using generics, the standard library's `Into<T>` can provide a kind of limited\n"
 "  polymorphism on argument types. We will see more details in a later section."
 msgstr ""
-"* Ao usar generics, o `Into<T>` da biblioteca padrão pode fornecer um tipo polimorfismo\n"
+"* Ao usar generics, o traço (`trait`) `Into<T>` da biblioteca padrão pode fornecer um tipo polimorfismo\n"
 "  limitado nos tipos do argumento. Veremos mais detalhes em uma seção posterior."
 
 #: src/basic-syntax/functions-interlude.md:30
