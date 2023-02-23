@@ -3548,7 +3548,7 @@ msgid ""
 "destroyed. The compiler guarantees that this happens, even if an exception is\n"
 "raised."
 msgstr ""
-"Ao envolver um ponteiro em um objeto, você pode liberar memória quando o objeto é\n"
+"Ao envolver um ponteiro em um objeto (dentro de um escopo léxico), você pode liberar memória quando o objeto é\n"
 "destruído. O compilador garante que isso aconteça, mesmo que uma exceção seja\n"
 "criada."
 
