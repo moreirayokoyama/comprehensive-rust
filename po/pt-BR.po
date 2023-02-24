@@ -4278,53 +4278,11 @@ msgstr ""
 
 #: src/ownership/lifetimes-data-structures.md:1
 msgid "# Lifetimes in Data Structures"
-msgstr "# Tempos de vida em Structs de dados"
+msgstr "# Lifetimes em Estruturas de Dados"
 
 #: src/ownership/lifetimes-data-structures.md:3
 msgid "If a data type stores borrowed data, it must be annotated with a lifetime:"
 msgstr "Se um tipo de dados armazena dados emprestados, ele deve ser anotado com um tempo de vida:"
-
-#: src/ownership/lifetimes-data-structures.md:5
-msgid ""
-"```rust,editable\n"
-"#[derive(Debug)]\n"
-"struct Highlight<'doc>(&'doc str);"
-msgstr ""
-"```rust, editable\n"
-"#[derive(Debug)]\n"
-"struct Highlight<'doc>(&'doc str);"
-
-#: src/ownership/lifetimes-data-structures.md:9
-msgid ""
-"fn erase(text: String) {\n"
-"    println!(\"Bye {text}!\");\n"
-"}"
-msgstr ""
-"fn erase(texto: String) {\n"
-"    println!(\"Tchau {texto}!\");\n"
-"}"
-
-#: src/ownership/lifetimes-data-structures.md:13
-msgid ""
-"fn main() {\n"
-"    let text = String::from(\"The quick brown fox jumps over the lazy dog.\");\n"
-"    let fox = Highlight(&text[4..19]);\n"
-"    let dog = Highlight(&text[35..43]);\n"
-"    // erase(text);\n"
-"    println!(\"{fox:?}\");\n"
-"    println!(\"{dog:?}\");\n"
-"}\n"
-"```"
-msgstr ""
-"fn main() {\n"
-"    let text = String::from(\"The quick brown fox jumps over the lazy dog.\");\n"
-"    let fox = Highlight(&text[4..19]);\n"
-"    let dog = Highlight(&text[35..43]);\n"
-"    // erase(texto);\n"
-"    println!(\"{fox:?}\");\n"
-"    println!(\"{dog:?}\");\n"
-"}\n"
-"```"
 
 #: src/ownership/lifetimes-data-structures.md:25
 msgid ""
@@ -4345,9 +4303,9 @@ msgstr ""
 "erro.\n"
 "* Tipos com dados emprestados forçam os usuários a manter os dados originais. Isso pode ser útil para criar exibições "
 "leves, mas geralmente as torna um pouco mais difíceis de usar.\n"
-"* Quando possível, faça com que as Structs de dados possuam seus dados diretamente.\n"
-"* Algumas Structs com várias referências internas podem ter mais de uma anotação vitalícia. Isso pode ser necessário se "
-"houver necessage de descrever relacionamentos de tempo de vida entre as próprias referências, além do tempo de vida da "
+"* Quando possível, faça com que as estruturas de dados possuam seus dados diretamente.\n"
+"* Algumas Structs com várias referências internas podem ter mais de uma anotação de lifetime. Isso pode ser necessário se "
+"houver necessidade de descrever relacionamentos de lifetimes entre as próprias referências, além do tempo de vida da "
 "própria estrutura. Esses são casos de uso muito avançados.\n"
 "</details>"
 
