@@ -4035,68 +4035,18 @@ msgstr "# Copiar e clonar"
 msgid "While move semantics are the default, certain types are copied by default:"
 msgstr "Embora a semântica de movimento seja o padrão, certos tipos são copiados por padrão:"
 
-#: src/ownership/copy-clone.md:5
-msgid ""
-"```rust,editable\n"
-"fn main() {\n"
-"    let x = 42;\n"
-"    let y = x;\n"
-"    println!(\"x: {x}\");\n"
-"    println!(\"y: {y}\");\n"
-"}\n"
-"```"
-msgstr ""
-"```rust, editable\n"
-"fn main() {\n"
-"    let x = 42;\n"
-"    let y = x;\n"
-"    println!(\"x: {x}\");\n"
-"    println!(\"y: {y}\");\n"
-"}\n"
-"```"
-
 #: src/ownership/copy-clone.md:14
 msgid "These types implement the `Copy` trait."
-msgstr "Esses tipos implementam o recurso `Copy`."
+msgstr "Esses tipos implementam a trait `Copy`."
 
 #: src/ownership/copy-clone.md:16
 msgid "You can opt-in your own types to use copy semantics:"
-msgstr "Você pode ativar seus próprios tipos para usar a semântica de cópia:"
-
-#: src/ownership/copy-clone.md:18
-msgid ""
-"```rust,editable\n"
-"#[derive(Copy, Clone, Debug)]\n"
-"struct Point(i32, i32);"
-msgstr ""
-"```rust, editable\n"
-"#[derive(Copy, Clone, Debug)]\n"
-"struct Point(i32, i32);"
-
-#: src/ownership/copy-clone.md:22
-msgid ""
-"fn main() {\n"
-"    let p1 = Point(3, 4);\n"
-"    let p2 = p1;\n"
-"    println!(\"p1: {p1:?}\");\n"
-"    println!(\"p2: {p2:?}\");\n"
-"}\n"
-"```"
-msgstr ""
-"fn main() {\n"
-"    let p1 = Point(3, 4);\n"
-"    let p2 = p1;\n"
-"    println!(\"p1: {p1:?}\");\n"
-"    println!(\"p2: {p2:?}\");\n"
-"}\n"
-"```"
+msgstr "Você pode optar por fazer seus próprios tipos usarem a semântica de cópia:"
 
 #: src/ownership/copy-clone.md:30
-msgid ""
-"* After the assignment, both `p1` and `p2` own their own data.\n"
+msgid "* After the assignment, both `p1` and `p2` own their own data.\n"
 "* We can also use `p1.clone()` to explicitly copy the data."
-msgstr ""
-"* Após a atribuição, tanto `p1` quanto `p2` possuem seus próprios dados.\n"
+msgstr "* Após a atribuição, tanto `p1` quanto `p2` possuem seus próprios dados.\n"
 "* Também podemos usar `p1.clone()` para copiar explicitamente os dados."
 
 #: src/ownership/copy-clone.md:35
@@ -4113,7 +4063,7 @@ msgstr ""
 "* A cópia refere-se a cópias bit a bit de regiões de memória e não funciona em objetos arbitrários.\n"
 "* A cópia não permite lógica personalizada (ao contrário dos construtores de cópia em C++).\n"
 "* A clonagem é uma operação mais geral e também permite um comportamento personalizado implementando a trait `Clone`.\n"
-"* A cópia não funciona em tipos que implementam a característica `Drop`."
+"* A cópia não funciona em tipos que implementam a trait `Drop`."
 
 #: src/ownership/copy-clone.md:42 src/ownership/lifetimes-function-calls.md:29
 msgid "In the above example, try the following:"
