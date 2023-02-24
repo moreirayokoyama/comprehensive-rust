@@ -4194,39 +4194,11 @@ msgstr ""
 
 #: src/ownership/lifetimes-function-calls.md:1
 msgid "# Lifetimes in Function Calls"
-msgstr "# Tempos de vida em Chamadas de Função"
+msgstr "# Lifetimes em Chamadas de Função"
 
 #: src/ownership/lifetimes-function-calls.md:3
 msgid "In addition to borrowing its arguments, a function can return a borrowed value:"
 msgstr "Além de emprestar seus argumentos, uma função pode retornar um valor emprestado:"
-
-#: src/ownership/lifetimes-function-calls.md:9
-msgid ""
-"fn left_most<'a>(p1: &'a Point, p2: &'a Point) -> &'a Point {\n"
-"    if p1.0 < p2.0 { p1 } else { p2 }\n"
-"}"
-msgstr ""
-"fn left_most<'a>(p1: &'a Point, p2: &'a Point) -> &'a Point {\n"
-"    if p1.0 < p2.0 { p1 } else { p2 }\n"
-"}"
-
-#: src/ownership/lifetimes-function-calls.md:13
-msgid ""
-"fn main() {\n"
-"    let p1: Point = Point(10, 10);\n"
-"    let p2: Point = Point(20, 20);\n"
-"    let p3: &Point = left_most(&p1, &p2);\n"
-"    println!(\"left-most point: {:?}\", p3);\n"
-"}\n"
-"```"
-msgstr ""
-"fn main() {\n"
-"    let p1: Point = Point(10, 10);\n"
-"    let p2: Point = Point(20, 20);\n"
-"    let p3: &Point = left_most(&p1, &p2);\n"
-"    println!(\"Point mais à esquerda: {:?}\", p3);\n"
-"}\n"
-"```"
 
 #: src/ownership/lifetimes-function-calls.md:21
 msgid ""
@@ -4245,14 +4217,8 @@ msgstr ""
 #: src/ownership/lifetimes-function-calls.md:31
 msgid ""
 "* Move the declaration of `p2` and `p3` into a a new scope (`{ ... }`), resulting in the following code:\n"
-"  ```rust,ignore\n"
-"  #[derive(Debug)]\n"
-"  struct Point(i32, i32);"
 msgstr ""
 "* Mova a declaração de `p2` e `p3` para um novo escopo (`{ ... }`), resultando no seguinte código:\n"
-"  ```rust, ignore\n"
-"  #[derive(Debug)]\n"
-"  struct Point(i32, i32);"
 
 #: src/ownership/lifetimes-function-calls.md:36
 msgid ""
@@ -4306,8 +4272,8 @@ msgstr ""
 "* Outra forma de explicar:\n"
 "  * Duas referências a dois valores são emprestadas por uma função e a função retorna\n"
 "    outra referência.\n"
-"  * Deve ter vindo de uma dessas duas entradas (ou de uma variável global).\n"
-"  * Qual é? O compilador precisa saber, portanto, no local da chamada, a referência retornada não é usada\n"
+"  * Ela deve ter vindo de uma dessas duas entradas (ou de uma variável global).\n"
+"  * Qual delas é? O compilador precisa saber, portanto, no local da chamada, a referência retornada não é usada\n"
 "    por mais tempo do que uma variável de onde veio a referência."
 
 #: src/ownership/lifetimes-data-structures.md:1
