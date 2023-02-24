@@ -4166,7 +4166,7 @@ msgstr ""
 
 #: src/ownership/lifetimes.md:1
 msgid "# Lifetimes"
-msgstr "# Tempos de vida"
+msgstr "# Tempos de vida (Lifetimes)"
 
 #: src/ownership/lifetimes.md:3
 msgid "A borrowed value has a _lifetime_:"
@@ -4183,13 +4183,13 @@ msgid ""
 "  * Lifetime annotations create constraints; the compiler verifies that there is\n"
 "    a valid solution."
 msgstr ""
-"* O tempo de vida pode ser excluído: `add(p1: &Point, p2: &Point) -> Point`.\n"
-"* Tempos de vida também podem ser explícitos: `&'a Point`, `&'document str`.\n"
+"* Lifetimes podem ser omitidos: `add(p1: &Point, p2: &Point) -> Point`.\n"
+"* Lifetimes também podem ser explícitos: `&'a Point`, `&'document str`.\n"
 "* Leia `&'um Point` como \"um `Point` emprestado que é válido por pelo menos o\n"
 "  tempo de vida `a`\".\n"
-"* Os tempos de vida são sempre inferidos pelo compilador: você não pode atribuir um tempo de vida\n"
+"* Lifetimes são sempre inferidos pelo compilador: você não pode atribuir um lifetime\n"
 "  você mesmo.\n"
-"  * As anotações vitalícias criam restrições; o compilador verifica se há\n"
+"  * As anotações de lifetime criam restrições; o compilador verifica se há\n"
 "    uma solução válida."
 
 #: src/ownership/lifetimes-function-calls.md:1
