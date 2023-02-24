@@ -4327,7 +4327,7 @@ msgstr "* Iteradores e ownership (difícil)."
 
 #: src/exercises/day-1/afternoon.md:13 src/exercises/day-2/afternoon.md:9
 msgid "[solutions]: solutions-afternoon.md"
-msgstr "[soluções]: soluções-tarde.md"
+msgstr "[soluções]: solutions-afternoon.md"
 
 #: src/exercises/day-1/book-library.md:1
 msgid "# Designing a Library"
