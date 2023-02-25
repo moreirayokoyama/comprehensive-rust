@@ -4552,7 +4552,7 @@ msgstr "# Bem-vindo ao Dia 2"
 
 #: src/welcome-day-2.md:3
 msgid "Now that we have seen a fair amount of Rust, we will continue with:"
-msgstr "Agora que vimos uma boa quantage de Rust, continuaremos com:"
+msgstr "Agora que vimos uma boa parte de Rust, continuaremos com:"
 
 #: src/welcome-day-2.md:5
 msgid "* Structs, enums, methods."
@@ -4560,14 +4560,14 @@ msgstr "* Structs, enums, métodos."
 
 #: src/welcome-day-2.md:7
 msgid "* Pattern matching: destructuring enums, structs, and arrays."
-msgstr "* Correspondência de padrões: desestruturando enums, structs e arrays."
+msgstr "* Correspondência de padrões (`pattern-matching`): desestruturando enums, structs e arrays."
 
 #: src/welcome-day-2.md:9
 msgid ""
 "* Control flow constructs: `if`, `if let`, `while`, `while let`, `break`, and\n"
 "  `continue`."
 msgstr ""
-"* Construções de fluxo de controle: `if`, `if let`, `while`, `while let`, `break` e\n"
+"* Construções de estruturas de controle: `if`, `if let`, `while`, `while let`, `break` e\n"
 "  `continue`."
 
 #: src/welcome-day-2.md:12
@@ -4576,11 +4576,11 @@ msgid ""
 "  and `Arc`."
 msgstr ""
 "* A Biblioteca Padrão: `String`, `Option` e `Result`, `Vec`, `HashMap`, `Rc`\n"
-"  e 'Arc'."
+"  e `Arc`."
 
 #: src/welcome-day-2.md:15
 msgid "* Modules: visibility, paths, and filesystem hierarchy."
-msgstr "* Módulos: visibilage, caminhos e hierarquia do sistema de arquivos."
+msgstr "* Módulos: visibilidade, caminhos e hierarquia do sistema de arquivos."
 
 #: src/structs.md:1
 msgid "# Structs"
