@@ -4913,20 +4913,20 @@ msgid "* Enumerations allow you to collect a set of values under one type\n"
 msgstr "* As enumerações permitem que você colete um conjunto de valores em um tipo\n"
 "* Esta página oferece um tipo de Enum `CoinFlip` com duas variantes `Heads` e `Tail`. Você pode observar o namespace ao usar variantes.\n"
 "* Este pode ser um bom momento para comparar Structs e Enums:\n"
-"  * Em ambos, você pode ter uma versão simples sem campos (unit struct) ou uma com diferentes tipos de campos (conteúdos variantes).\n"
+"  * Em ambos, você pode ter uma versão simples sem campos (unit struct) ou uma com diferentes tipos de campos (variant payloads).\n"
 "  * Em ambos, as funções associadas são definidas dentro de um bloco `impl`.\n"
 "  * Você pode até mesmo implementar as diferentes variantes de uma Enum com Structs separadas, mas elas não seriam do mesmo tipo que seriam se todas fossem definidas em uma Enum."
 
 #: src/enums/variant-payloads.md:1
 msgid "# Variant Payloads"
-msgstr "# cargos úteis variantes"
+msgstr "# Variant Payloads"
 
 #: src/enums/variant-payloads.md:3
 msgid ""
 "You can define richer enums where the variants carry data. You can then use the\n"
 "`match` statement to extract the data from each variant:"
 msgstr ""
-"Você pode definir enums mais ricos onde as variantes carregam dados. Você pode então usar o\n"
+"Você pode definir enums mais ricos onde as variantes carregam dados. Você pode então usar a\n"
 "instrução `match` para extrair os dados de cada variante:"
 
 #: src/enums/variant-payloads.md:6
@@ -5002,10 +5002,11 @@ msgid ""
 "* `WebEvent::Click { ... }` is not exactly the same as `WebEvent::Click(Click)` with a top level `struct Click { ... }`. "
 "The inlined version cannot implement traits, for example."
 msgstr ""
-"* No exemplo acima, acessar o `char` em `KeyPress`, ou `x` e `y` em `Click` só funciona dentro de uma instrução `match`.\n"
-"* `match` inspeciona um campo discriminante oculto no `enum`.\n"
-"* `WebEvent::Click { ... }` não é exatamente o mesmo que `WebEvent::Click(Click)` com um `struct Click { ... }` de nível "
-"superior. A versão embutida não pode implementar traits, por exemplo."
+"* No exemplo acima, acessar o `char` em `KeyPress`, ou `x` e `y` em `Click` só funciona dentro de uma instrução `match` ou `if let`.\n"
+"* `match` e `if let` inspeciona um campo oculto discriminante no `enum`.\n"
+"* É possível obter o campo discriminante chamando `std::mem::discriminant()`\n"
+"  * Isto é útil, por exemplo, ao implementar `PartialEq` para structs quando comparar os valores dos campos não afeta a igualdade.\n"
+"* `WebEvent::Click { ... }` não é exatamente o mesmo que `WebEvent::Click(Click)` com um `struct Click { ... }`. A versão inlinle não pode implementar traits, por exemplo."
 
 #: src/enums/sizes.md:1
 msgid "# Enum Sizes"
