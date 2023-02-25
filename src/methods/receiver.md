@@ -21,9 +21,9 @@ Beyond variants on `self`, there are also
 allowed to be receiver types, such as `Box<Self>`.
 
 <details>
-  
+
 Consider emphasizing "shared and immutable" and "unique and mutable". These constraints always come
 together in Rust due to borrow checker rules, and `self` is no exception. It isn't possible to
 reference a struct from multiple locations and call a mutating (`&mut self`) method on it.
-  
+
 </details>
