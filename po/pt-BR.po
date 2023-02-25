@@ -4671,33 +4671,11 @@ msgstr "* Structs funcionam como em C ou C++.\n"
 
 #: src/structs/tuple-structs.md:1
 msgid "# Tuple Structs"
-msgstr "# Structs Tuplas"
+msgstr "# Structs de Tuplas"
 
 #: src/structs/tuple-structs.md:3
 msgid "If the field names are unimportant, you can use a tuple struct:"
-msgstr "Se os names dos campos não forem importantes, você pode usar uma estrutura de tupla:"
-
-#: src/structs/tuple-structs.md:5
-msgid ""
-"```rust,editable\n"
-"struct Point(i32, i32);"
-msgstr ""
-"```rust, editable\n"
-"struct Point(i32, i32);"
-
-#: src/structs/tuple-structs.md:8
-msgid ""
-"fn main() {\n"
-"    let p = Point(17, 23);\n"
-"    println!(\"({}, {})\", p.0, p.1);\n"
-"}\n"
-"```"
-msgstr ""
-"fn main() {\n"
-"    let p = Point(17, 23);\n"
-"    println!(\"({}, {})\", p.0, p.1);\n"
-"}\n"
-"```"
+msgstr "Se os nomes dos campos não forem importantes, você pode usar uma estrutura de tupla:"
 
 #: src/structs/tuple-structs.md:14
 msgid "This is often used for single-field wrappers (called newtypes):"
@@ -4750,20 +4728,18 @@ msgid "```"
 msgstr "```"
 
 #: src/structs/tuple-structs.md:37
-msgid ""
-"Newtypes are a great way to encode additional information about the value in a primitive type, for example:\n"
+msgid "* Newtypes are a great way to encode additional information about the value in a primitive type, for example:\n"
 "  * The number is measured in some units: `Newtons` in the example above.\n"
-"  * The value passed some validation when it was created, so you no longer have to validate it again at every use: "
-"'PhoneNumber(String)` or `OddNumber(u32)`.\n"
-"    \n"
-"</details>"
-msgstr ""
-"Newtypes são uma ótima maneira de codificar informações adicionais sobre o valor em um tipo primitivo, por exemplo:\n"
-"  * O número é medido em algumas unages: `Newtons` no exemplo acima.\n"
-"  * O valor passou por alguma validação quando foi criado, então você não precisa mais validá-lo novamente a cada uso: "
-"'PhoneNumber(String)` ou `OddNumber(u32)`.\n"
-"    \n"
-"</details>"
+"  * The value passed some validation when it was created, so you no longer have to validate it again at every use: 'PhoneNumber(String)` or `OddNumber(u32)`.\n"
+"* Demonstrate how to add a `f64` value to a `Newtons` type by accessing the single field in the newtype.\n"
+"  *  Rust generally doesn’t like inexplicit things, like automatic unwrapping or for instance using booleans as integers.\n"
+"  *  Operator overloading is discussed on Day 3 (generics)."
+msgstr "Newtypes são uma ótima maneira de codificar informações adicionais sobre o valor em um tipo primitivo, por exemplo:\n"
+"  * O número é medido em algumas unidades: `Newtons` no exemplo acima.\n"
+"  * O valor passou por alguma validação quando foi criado, então você não precisa mais validá-lo novamente a cada uso: 'PhoneNumber(String)` ou `OddNumber(u32)`.\n"
+"* Demonstre como adicionar um valor `f64` para um tipo `Newtons` acessando o campo único no newtype.\n"
+"  * Rust geralmente não gosta de coisas obscuras (que não são explícitas), como `unwrapping` automático ou, por exemplo, usar booleans como inteiros.\n" 
+"  * Sobrecarga de operadores será um tema discutido no Dia 3 (generics)."
 
 #: src/structs/field-shorthand.md:1
 msgid "# Field Shorthand Syntax"
