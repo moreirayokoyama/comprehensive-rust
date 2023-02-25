@@ -4588,7 +4588,7 @@ msgstr "# Structs"
 
 #: src/structs.md:3
 msgid "Like C and C++, Rust has support for custom structs:"
-msgstr "Como C e C++, Rust tem suporte para structs personalizados:"
+msgstr "Como em C e C++, Rust tem suporte para structs personalizados:"
 
 #: src/structs.md:5
 msgid ""
@@ -4642,35 +4642,32 @@ msgstr ""
 "}\n"
 "```"
 
-#: src/structs.md:29
+#: src/structs.md:30
 msgid ""
 "<details>\n"
 "Key Points: "
 msgstr ""
 "<details>\n"
-"Points chave:"
+"Pontos chave:"
 
 #: src/structs.md:32
-msgid ""
-"* Structs work like in C or C++.\n"
+msgid "* Structs work like in C or C++.\n"
 "  * Like in C++, and unlike in C, no typedef is needed to define a type.\n"
 "  * Unlike in C++, there is no inheritance between structs.\n"
 "* Methods are defined in an `impl` block, which we will see in following slides.\n"
-"* This may be a good time to let people know there are different types of structs. \n"
-"  * Zero-sized structs `e.g., struct Foo;` might be used when implementing a trait on some type but don't have any data "
-"that you want to store in the value itself. \n"
+"* This may be a good time to let people know there are different types of structs.\n"
+"  * Zero-sized structs `e.g., struct Foo;` might be used when implementing a trait on some type but don’t have any data that you want to store in the value itself.\n"
 "  * The next slide will introduce Tuple structs, used when the field names are not important.\n"
-"* The syntax `..peter` allows us to copy the majority of the fields from the old struct without having to explicitly type "
-"it all out. It must always be the last element."
-msgstr ""
-"* Structs funcionam como em C ou C++.\n"
+"* The syntax `..peter` allows us to copy the majority of the fields from the old struct without having to explicitly type it all out. It must always be the last element."
+msgstr "* Structs funcionam como em C ou C++.\n"
 "  * Como em C++, e ao contrário de C, nenhum typedef é necessário para definir um tipo.\n"
 "  * Ao contrário do C++, não há herança entre structs.\n"
 "* Os métodos são definidos em um bloco `impl`, que veremos nos próximos slides.\n"
-"* Este pode ser um bom momento para que as Persons saibam que existem diferentes tipos de structs.\n"
-"  * Structs de tamanho zero `por exemplo, struct Foo;` podem ser usadas ao implementar uma característica em algum tipo, "
+"* Este pode ser um bom momento para que as pessoas saibam que existem diferentes tipos de structs.\n"
+"  * Structs de tamanho zero `por exemplo, struct Foo;` podem ser usadas ao implementar uma trait em algum tipo, "
 "mas não possuem nenhum dado que você deseja armazenar no próprio valor.\n"
-"  * O próximo slide apresentará as Structs Tuple."
+"  * O próximo slide apresentará as Structs de Tupla (tuple), usadas quando os nomes dos camos não são importantes.\n"
+"* A sintaxe `..pedro` nos permite copiar a maioria dos campos da estrutura original sem ter que digitar explicitamente cada um deles. Ela precisa ser sempre o último elemento."
 
 #: src/structs/tuple-structs.md:1
 msgid "# Tuple Structs"
